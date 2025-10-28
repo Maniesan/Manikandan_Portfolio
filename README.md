@@ -1,4 +1,4 @@
-# Alvalens Porto 2
+# MANIKANDAN Porto 2
 
 ![visitor badge](https://visitor-badge.laobi.icu/badge?page_id=aleph-discord-bot.visitor-badge)
 
@@ -11,7 +11,7 @@ This is my debut project utilizing Next.js, a portfolio website featuring four p
 * **Smooth Animation:** Smooth page scroll and scroll trigger animation.
 * **Smooth Page Transition:** Smooth page transition with prefetching feature of next js.
 * **Dynamic Data:** Read the project data from JSON file instead of directly implemented the data.
-* **Intelliticks chat widget:** Chat with owner of the web realtime.
+* (chat widget removed)
 * **Spotify realtime widget:** Show what song youre playing in this web.
 
 ## Installation
@@ -24,12 +24,12 @@ This is my debut project utilizing Next.js, a portfolio website featuring four p
 2. Clone the repository:
 
    ```shell
-   git clone https://github.com/Alvalens/Alvalens-porto-2-nextJs.git
+   git clone https://github.com/MANIKANDAN/MANIKANDAN-porto-2-nextJs.git
    ```
 3. Navigate to the project directory:
 
    ```shell
-   cd Alvalens-porto-2-nextJs
+   cd MANIKANDAN-porto-2-nextJs
    ```
 4. Install dependencies:
 
@@ -41,24 +41,7 @@ This is my debut project utilizing Next.js, a portfolio website featuring four p
    ```shell
    pnpm next dev
    ```
-6. Update the Intelliticks chat widget script in components/Chat.jsx, with your own
-
-   ```javascript
-    "use client"
-    import { useEffect } from "react";
-
-    // Component for Intelliticks chat widget
-    const Chat = () => {
-    	useEffect(() => {
-    		// Replace the Intelliticks script here
-
-    	}, []);
-
-    	return null;
-    };
-
-    export default Chat;
-   ```
+6. (Chat widget removed) The project previously included an Intelliticks chat widget. That component has been removed.
 7. Set env.local by copying env.example and fill the variable
 
    ```
@@ -96,9 +79,9 @@ The contact page allows users to get in touch with you. You can provide contact 
 
 Feel free to customize and expand upon these sections and subpages to suit your needs and showcase your unique skills and projects.
 
-### Intelliticks chat widget
+### Chat widget
 
-Enjoy chat realtime with ease using Intelliticks (https://app.intelliticks.com/)
+The chat widget has been removed from this project.
 
 ## Contributing
 
@@ -113,4 +96,4 @@ Contributions are welcome! If you find any issues or have suggestions, feel free
 
 This project is licensed under the GPL-3.0 License see the [LICENSE](LICENSE) file for details.
 
-Copyright (C) 2025 Alvalen Shafelbilyunazra
+Copyright (C) 2025 MANIKANDAN ESWARANbilyunazra

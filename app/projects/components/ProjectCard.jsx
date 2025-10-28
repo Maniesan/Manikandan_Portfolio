@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import PropTypes from "prop-types";
-import BlurImage from "@/public/image/placeholder/blur.jpg";
+import BlurImage from "@/public/image/projects/gethubservice.png";
 
 export default function ProjectCard({ project, index, activeCategory }) {
 	return (
@@ -24,7 +24,7 @@ export default function ProjectCard({ project, index, activeCategory }) {
 						}}>
 						<Image
 							src={project.thumbnail}
-							alt="Alvalens"
+							alt="MANIKANDAN"
 							layout="fill"
 							objectFit="cover"
 							placeholder="blur"

@@ -1,5 +1,5 @@
-// Copyright (C) 2025 Alvalen Bilyunazra
-// This file is part of Alvalens-porto-2-nextJs.
+// Copyright (C) 2025 MANIKANDAN Bilyunazra
+// This file is part of MANIKANDAN-porto-2-nextJs.
 // Licensed under the GNU GPL v3.0. See LICENSE for details.
 
 "use client";
@@ -11,10 +11,10 @@ import Link from "next/link";
 
 // components
 import Button from "@/components/Button";
-import Me from "@/public/image/me.jpg";
-import MeAbout from "@/public/image/me2.jpg";
-import Setup from "@/public/image/setup.jpg";
-import ProjectAll from "@/public/image/projects.png";
+import Me from "@/public/image/me/InShot_20250328_091231044.jpg";
+import MeAbout from "@/public/image/me/InShot_20250328_091231044.jpg";
+import Setup from "@/public/image/me/IMG_20250901_071537_482.webp";
+import ProjectAll from "@/public/image/projects/gethubservice.png";
 import Hr from "@/components/Hr";
 // icons
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -54,7 +54,7 @@ const MyPage = () => {
 												width={500}
 												height={500}
 												className="rounded-full w-full h-full object-cover "
-												alt="Alvalens"
+												alt="MANIKANDAN"
 												placeholder="blur"
 											/>
 										</div>
@@ -67,7 +67,7 @@ const MyPage = () => {
 											delay: 0.2,
 											type: "spring",
 										}}>
-										Alvalen Shafel
+										MANIKANDAN ESWARAN
 									</motion.h3>
 									<motion.h1
 										className="text-black text-5xl md:text-6xl lg:text-7xl 2xl:text-8xl font-bold my-2 md:my-5"
@@ -77,7 +77,7 @@ const MyPage = () => {
 											delay: 0.3,
 											type: "spring",
 										}}>
-										Full Stack Developer
+										MERN Stack Developer
 									</motion.h1>
 									<motion.p
 										className="title text-md  2xl:text-xl mt-4 tracking-wider text-gray-500 leading-[1.7rem]"
@@ -87,11 +87,7 @@ const MyPage = () => {
 											delay: 0.4,
 											type: "spring",
 										}}>
-										Hi! I&rsquo;am Alvalen, A junior fullstack developer specializing in
-										modern Web Development with a growing focus on Artificial
-										Intelligence. Passionate about building scalable,
-										user-friendly web applications and exploring AI technologies
-										such as generative models and LLM integration.
+										Hi! I&rsquo;m Manikandan Eswaran, a MERN Stack Developer with 1.5 years of hands-on experience in building scalable web applications using MongoDB, Express.js, React.js, and Node.js. Strong understanding of RESTful APIs, modern UI/UX practices, and full-stack development workflows. Passionate about developing responsive, high-performance solutions from design to deployment.
 									</motion.p>
 									<motion.div
 										className="buttons flex flex-row justify-center items-center space-x-4 mt-10"
@@ -101,14 +97,8 @@ const MyPage = () => {
 											delay: 0.5,
 											type: "spring",
 										}}>
-										<Button variation="primary">
-											<Link
-												href={"/docs/cv.pdf"}
-												target="_blank"
-												rel="noopener noreferrer"
-												download>
-												Download CV
-											</Link>
+										<Button variation="primary" href="/docs/cv.pdf" download>
+											Download CV
 										</Button>
 										<Button variation="secondary">
 											<a href="#contact">Contact Me</a>
@@ -129,7 +119,7 @@ const MyPage = () => {
 											width={400}
 											height={550}
 											placeholder="blur"
-											alt="Alvalens"
+											alt="MANIKANDAN"
 											className="rounded-full w-full h-full object-cover"
 										/>
 									</div>
@@ -161,7 +151,7 @@ const MyPage = () => {
 											src={MeAbout}
 											layout="fill"
 											className="object-cover"
-											alt="Alvalens"
+											alt="MANIKANDAN"
 											placeholder="blur"
 										/>
 									</motion.div>
@@ -227,7 +217,7 @@ const MyPage = () => {
 											src={ProjectAll}
 											layout="fill"
 											className="object-cover"
-											alt="Alvalens Setup"
+											alt="MANIKANDAN Setup"
 											placeholder="blur"
 										/>
 									</motion.div>
@@ -297,7 +287,7 @@ const MyPage = () => {
 											src={Setup}
 											layout="fill"
 											className="object-cover"
-											alt="Alvalens Setup"
+											alt="MANIKANDAN Setup"
 											placeholder="blur"
 										/>
 									</motion.div>
@@ -335,14 +325,14 @@ const MyPage = () => {
 											delay: 0.3,
 											type: "spring",
 										}}>
-										<a href="mailto:Alvalen.shafel04@gmail.com?subject=Hello&body=Hello Alvalens,">
-											alvalen.shafel04@gmail.com
+										<a href="mailto:eswaranmanikandan15@gmail.com?subject=Hello&body=Hello Manikandan,">
+											eswaranmanikandan15@gmail.com
 										</a>
 									</motion.p>
 									{/* icons */}
 									<div className="flex justify-center items-center space-x-4">
 										<motion.a
-											href="mailto:Alvalen.shafel04@gmail.com?subject=Hello&body=Hello Alvalens,"
+											href="mailto:eswaranmanikandan15@gmail.com?subject=Hello&body=Hello Manikandan,"
 											className="flex justify-center items-center bg-gray-700 w-14 h-14 rounded-full text-gray-100 hover:bg-gray-400 transition-all ease-in-out duration-300"
 											initial={{ y: 40, opacity: 0 }}
 											whileInView={{ y: 0, opacity: 1 }}
@@ -354,7 +344,7 @@ const MyPage = () => {
 										</motion.a>
 
 										<motion.a
-											href="https://github.com/Alvalens"
+											href="https://github.com/Maniesan"
 											target="_blank"
 											rel="noopener noreferrer"
 											className="flex justify-center items-center bg-gray-700 w-14 h-14 rounded-full text-gray-100 hover:bg-gray-400 transition-all ease-in-out duration-300"
@@ -367,7 +357,7 @@ const MyPage = () => {
 											<FontAwesomeIcon icon={faGithub} className="text-3xl" />
 										</motion.a>
 										<motion.a
-											href="https://www.instagram.com/alvalens_/"
+											href="https://www.instagram.com/manikandann_eswaran?utm_source=qr&igsh=YWExdjc2NWhqdXgy"
 											target="_blank"
 											rel="noopener noreferrer"
 											className="flex justify-center items-center bg-gray-700 w-14 h-14 rounded-full text-gray-100 hover:bg-gray-400 transition-all ease-in-out duration-300"
@@ -383,7 +373,7 @@ const MyPage = () => {
 											/>
 										</motion.a>
 										<motion.a
-											href="https://www.linkedin.com/in/alvalen-shafel-8a081a254/"
+											href="https://www.linkedin.com/in/manikandan-eswaran15/"
 											target="_blank"
 											rel="noopener noreferrer"
 											className="flex justify-center items-center bg-gray-700 w-14 h-14 rounded-full text-gray-100 hover:bg-gray-400 transition-all ease-in-out duration-300"
@@ -396,7 +386,7 @@ const MyPage = () => {
 											<FontAwesomeIcon icon={faLinkedin} className="text-3xl" />
 										</motion.a>
 										<motion.a
-											href="https://discordapp.com/users/bloody#6118"
+											href="https://discordapp.com/users/manikandan"
 											target="_blank"
 											rel="noopener noreferrer"
 											className="flex justify-center items-center bg-gray-700 w-14 h-14 rounded-full text-gray-100 hover:bg-gray-400 transition-all ease-in-out duration-300"

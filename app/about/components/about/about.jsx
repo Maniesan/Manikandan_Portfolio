@@ -1,9 +1,9 @@
 import Image from "next/image";
 import Card from "./spotify/card";
 import { motion } from "framer-motion";
-import Me1 from "@/public/image/me1.jpg";
-import Me2 from "@/public/image/me2.jpg";
-import Me3 from "@/public/image/me3.jpg";
+import Me1 from "@/public/image/me/1739944973393.jpg";
+import Me2 from "@/public/image/me/InShot_20241104_124641201.jpg";
+import Me3 from "@/public/image/me/IMG_20250901_071537_482.webp";
 import Hr from "@/components/Hr";
 
 function Title() {
@@ -35,7 +35,7 @@ export default function About() {
 								className="w-full h-full">
 								<Image
 									src={Me1}
-									alt="Alvalens"
+									alt="MANIKANDAN"
 									layout="fill"
 									objectFit="cover"
 									placeholder="blur"
@@ -58,7 +58,7 @@ export default function About() {
 								className="w-full h-full">
 								<Image
 									src={Me2}
-									alt="Alvalens"
+									alt="MANIKANDAN"
 									layout="fill"
 									objectFit="cover"
 									placeholder="blur"
@@ -83,7 +83,7 @@ export default function About() {
 								className="w-full h-full">
 								<Image
 									src={Me3}
-									alt="Alvalens"
+									alt="MANIKANDAN"
 									layout="fill"
 									objectFit="cover"
 									placeholder="blur"
@@ -108,36 +108,35 @@ export default function About() {
 						type: "spring",
 					}}>
 					<h2 className="text-2xl font-bold tracking-wider mb-3">
-						Alvalen Shafelbilyunazra
+						MANIKANDAN ESWARAN
 					</h2>
 					<p className="text-gray-600 text-justify title text-lg">
-						Hey there, I&rsquo;m Alvalen Shafelbilyunazra, a
+						Hey there, I&rsquo;m Manikandan Eswaran, a
 						<span className="text-black font-medium">
 							{" "}
-							passionate Web Developer
+							passionate MERN Stack Developer
 						</span>{" "}
-						with a growing expertise in
+						with 1.5 years of hands-on experience in building scalable web applications.
+						I specialize in
 						<span className="text-black font-medium">
 							{" "}
-							Artificial Intelligence.
+							MongoDB, Express.js, React.js, and Node.js,
 						</span>{" "}
-						Hailing from Pasuruan, East Java, Indonesia, I&rsquo;m currently
-						pursuing my degree in{" "}
+						and I have a strong understanding of RESTful APIs, modern UI/UX practices, 
+						and full-stack development workflows. My work focuses on developing 
+						responsive, high-performance solutions from design to deployment. 
+						In addition to web development, I possess practical experience with 
 						<span className="text-black font-medium">
-							Computer Science
-						</span>{" "}
-						at{" "}
-						<span className="text-black font-medium">
-							Universitas Negeri Malang.
-						</span>{" "}
-						My work bridges modern web technologies and intelligent systems—from
-						building responsive, scalable websites to exploring generative AI
-						and LLM-based solutions. Beyond development, I stay curious about
-						design and emerging technologies. In today&rsquo;s ever-changing
-						digital landscape, I believe being a
-						<span className="text-black font-medium"> lifelong learner</span> is
-						essential. Let&rsquo;s connect and explore the evolving intersection
-						of web and AI together!
+							{" "}
+							cloud technologies including Google Cloud Platform (GCP), 
+						</span>
+						VM management, and cloud storage solutions. I also have a unique background 
+						in product design tools such as AutoCAD, SolidWorks, and CATIA V5, enabling 
+						me to bridge the gap between development and product design. I believe in 
+						being a
+						<span className="text-black font-medium"> lifelong learner</span> and 
+						continuously improving my skills to deliver the best solutions. 
+						Let&rsquo;s connect and build something amazing together!
 					</p>
 					<Card />
 				</motion.div>
