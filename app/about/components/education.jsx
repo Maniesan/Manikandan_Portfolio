@@ -107,97 +107,24 @@ export default function Education() {
 						initial={{ opacity: 0, x: -50 }}
 						whileInView={{ opacity: 1, x: 0 }}
 						transition={{ duration: 0.8, delay: 0.2 }}>
-						<div className="font-medium text-lg mb-4">2022 - Present</div>
+						<div className="font-medium text-lg mb-4">2019 - 2023</div>
 						<div>
-							<h2 className="font-semibold text-xl">
-								Universitas Negeri Malang
-							</h2>
-							<h3 className="text-md font-normal mb-3">
-								S1 Teknik Informatika | Computer Science
-							</h3>
-							<div className="gap-4 mb-4 flex items-stretch md:h-[300px] xl:h-[400px]">
-								<div className="flex-[1] transition-all duration-300 ease-in-out hover:flex-[3] group">
-									<Image
-										src={Me5}
-										width={400}
-										height={225}
-										alt="University"
-										className="rounded-lg w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-300 ease-in-out"
-									/>
-								</div>
-								<div className="flex-[1] transition-all duration-300 ease-in-out hover:flex-[3] group">
-									<Image
-										src={Me4}
-										width={400}
-										height={225}
-										alt="University"
-										className="rounded-lg w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-300 ease-in-out"
-									/>
-								</div>
-								<div className="flex-[1] transition-all duration-300 ease-in-out hover:flex-[3] group">
-									<Image
-										src={Me6}
-										width={400}
-										height={225}
-										alt="University"
-										className="rounded-lg w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-300 ease-in-out"
-									/>
-								</div>
-							</div>
+							<h2 className="font-semibold text-xl">RVS School of Engineering, Dindigul</h2>
+							<h3 className="text-md font-normal mb-3">B.E. Aeronautical Engineering</h3>
 							<div className="flex items-center gap-2">
 								<p className="text-gray-600 text-justify title text-lg">
-									Aspiring to become a professional Software Engineer, I&rsquo;m
-									currently pursuing my Bachelor&rsquo;s degree in{" "}
-									<span className="text-black font-medium">
-										Computer Science
-									</span>{" "}
-									at{" "}
-									<span className="text-black font-medium">
-										Universitas Negeri Malang
-									</span>
-									. My journey in tech is driven by curiosity and
-									creativity—combining web development with cutting-edge AI
-									research and implementation.
-									<br />
-									<br />
-									As the{" "}
-									<span className="text-black font-medium">
-										Co-Lead of Google Developer Group on Campus (GDGoC)
-									</span>{" "}
-									at my university, I&rsquo;ve led technical initiatives,
-									mentored peers, and helped build impactful digital solutions.
-									I&rsquo;ve actively participated in various{" "}
-									<span className="text-black font-medium">
-										national or international technology competitions
-									</span>
-									, earning recognition through awards such as{" "}
-									<span className="text-black font-medium">
-										PIMNAS Finalist, Indonesia Inventor Day Gold Medalist, Top 3
-										at LIDM 2024
-									</span>
-									, and more.
-									<br />
-									<br />I am passionate about solving real-world problems
-									through code, especially at the intersection of{" "}
-									<span className="text-black font-medium">
-										Web Development
-									</span>{" "}
-									and{" "}
-									<span className="text-black font-medium">
-										Artificial Intelligence
-									</span>
-									. Constantly learning, building, and collaborating—I&rsquo;m
-									excited to keep growing and contributing to the evolving tech
-									landscape.
+									I completed my Bachelor of Engineering in Aeronautical Engineering at RVS
+									School of Engineering, Dindigul (affiliated to Anna University, Chennai),
+									graduating in 2023 with First Class honors and a CGPA of 8.1 out of 10.
 								</p>
 							</div>
 							<div className="flex flex-wrap gap-2 mt-4 text-sm">
 								<div className="bg-gray-300 text-black px-2 py-1 rounded-2xl">
-									GPA: 3.9 out of 4
+									<b>CGPA:</b> 8.1 / 10 — First Class
 								</div>
 							</div>
 						</div>
-					</motion.div>{" "}
+					</motion.div>
 					{/* Achievements Section - Right */}
 					<motion.div
 						className="flex flex-col justify-start px-5 md:px-0"

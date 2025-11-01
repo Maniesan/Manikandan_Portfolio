@@ -24,7 +24,7 @@ export default function ProjectCard({ project, index, activeCategory }) {
 						}}>
 						<Image
 							src={project.thumbnail}
-							alt="MANIKANDAN"
+							alt="MANIKANDAN ESWARAN"
 							layout="fill"
 							objectFit="cover"
 							placeholder="blur"

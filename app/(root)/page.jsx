@@ -1,5 +1,5 @@
-// Copyright (C) 2025 MANIKANDAN Bilyunazra
-// This file is part of MANIKANDAN-porto-2-nextJs.
+// Copyright (C) 2025 MANIKANDAN ESWARAN Bilyunazra
+// This file is part of MANIKANDAN ESWARAN-porto-2-nextJs.
 // Licensed under the GNU GPL v3.0. See LICENSE for details.
 
 "use client";
@@ -54,21 +54,12 @@ const MyPage = () => {
 												width={500}
 												height={500}
 												className="rounded-full w-full h-full object-cover "
-												alt="MANIKANDAN"
+												alt="MANIKANDAN ESWARAN"
 												placeholder="blur"
 											/>
 										</div>
 									</div>
-									<motion.h3
-										className="uppercase text-xl mb-3 font-normal text tracking-[.5rem] text-gray-500"
-										initial={{ x: -100, opacity: 0 }}
-										whileInView={{ x: 0, opacity: 1 }}
-										transition={{
-											delay: 0.2,
-											type: "spring",
-										}}>
-										MANIKANDAN ESWARAN
-									</motion.h3>
+									
 									<motion.h1
 										className="text-black text-5xl md:text-6xl lg:text-7xl 2xl:text-8xl font-bold my-2 md:my-5"
 										initial={{ x: -100, opacity: 0 }}
@@ -87,7 +78,7 @@ const MyPage = () => {
 											delay: 0.4,
 											type: "spring",
 										}}>
-										Hi! I&rsquo;m Manikandan Eswaran, a MERN Stack Developer with 1.5 years of hands-on experience in building scalable web applications using MongoDB, Express.js, React.js, and Node.js. Strong understanding of RESTful APIs, modern UI/UX practices, and full-stack development workflows. Passionate about developing responsive, high-performance solutions from design to deployment.
+										Hi! I&rsquo;m MANIKANDAN ESWARAN, a MERN Stack Developer with 1.5 years of hands-on experience in building scalable web applications using MongoDB, Express.js, React.js, and Node.js. Strong understanding of RESTful APIs, modern UI/UX practices, and full-stack development workflows. Passionate about developing responsive, high-performance solutions from design to deployment.
 									</motion.p>
 									<motion.div
 										className="buttons flex flex-row justify-center items-center space-x-4 mt-10"
@@ -119,7 +110,7 @@ const MyPage = () => {
 											width={400}
 											height={550}
 											placeholder="blur"
-											alt="MANIKANDAN"
+											alt="MANIKANDAN ESWARAN"
 											className="rounded-full w-full h-full object-cover"
 										/>
 									</div>
@@ -151,7 +142,7 @@ const MyPage = () => {
 											src={MeAbout}
 											layout="fill"
 											className="object-cover"
-											alt="MANIKANDAN"
+											alt="MANIKANDAN ESWARAN"
 											placeholder="blur"
 										/>
 									</motion.div>
@@ -217,7 +208,7 @@ const MyPage = () => {
 											src={ProjectAll}
 											layout="fill"
 											className="object-cover"
-											alt="MANIKANDAN Setup"
+											alt="MANIKANDAN ESWARAN Setup"
 											placeholder="blur"
 										/>
 									</motion.div>
@@ -287,7 +278,7 @@ const MyPage = () => {
 											src={Setup}
 											layout="fill"
 											className="object-cover"
-											alt="MANIKANDAN Setup"
+											alt="MANIKANDAN ESWARAN Setup"
 											placeholder="blur"
 										/>
 									</motion.div>
@@ -325,14 +316,14 @@ const MyPage = () => {
 											delay: 0.3,
 											type: "spring",
 										}}>
-										<a href="mailto:eswaranmanikandan15@gmail.com?subject=Hello&body=Hello Manikandan,">
+										<a href="mailto:eswaranmanikandan15@gmail.com?subject=Hello&body=Hello MANIKANDAN ESWARAN,">
 											eswaranmanikandan15@gmail.com
 										</a>
 									</motion.p>
 									{/* icons */}
 									<div className="flex justify-center items-center space-x-4">
 										<motion.a
-											href="mailto:eswaranmanikandan15@gmail.com?subject=Hello&body=Hello Manikandan,"
+											href="mailto:eswaranmanikandan15@gmail.com?subject=Hello&body=Hello MANIKANDAN ESWARAN,"
 											className="flex justify-center items-center bg-gray-700 w-14 h-14 rounded-full text-gray-100 hover:bg-gray-400 transition-all ease-in-out duration-300"
 											initial={{ y: 40, opacity: 0 }}
 											whileInView={{ y: 0, opacity: 1 }}
@@ -357,7 +348,7 @@ const MyPage = () => {
 											<FontAwesomeIcon icon={faGithub} className="text-3xl" />
 										</motion.a>
 										<motion.a
-											href="https://www.instagram.com/manikandann_eswaran?utm_source=qr&igsh=YWExdjc2NWhqdXgy"
+											href="https://www.instagram.com/MANIKANDAN ESWARANn_eswaran?utm_source=qr&igsh=YWExdjc2NWhqdXgy"
 											target="_blank"
 											rel="noopener noreferrer"
 											className="flex justify-center items-center bg-gray-700 w-14 h-14 rounded-full text-gray-100 hover:bg-gray-400 transition-all ease-in-out duration-300"
@@ -373,7 +364,7 @@ const MyPage = () => {
 											/>
 										</motion.a>
 										<motion.a
-											href="https://www.linkedin.com/in/manikandan-eswaran15/"
+											href="https://www.linkedin.com/in/MANIKANDAN ESWARAN-eswaran15/"
 											target="_blank"
 											rel="noopener noreferrer"
 											className="flex justify-center items-center bg-gray-700 w-14 h-14 rounded-full text-gray-100 hover:bg-gray-400 transition-all ease-in-out duration-300"
@@ -386,7 +377,7 @@ const MyPage = () => {
 											<FontAwesomeIcon icon={faLinkedin} className="text-3xl" />
 										</motion.a>
 										<motion.a
-											href="https://discordapp.com/users/manikandan"
+											href="https://discordapp.com/users/MANIKANDAN ESWARAN"
 											target="_blank"
 											rel="noopener noreferrer"
 											className="flex justify-center items-center bg-gray-700 w-14 h-14 rounded-full text-gray-100 hover:bg-gray-400 transition-all ease-in-out duration-300"

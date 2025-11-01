@@ -8,17 +8,17 @@ import { Analytics } from "@vercel/analytics/react";
 import ClientTopProgressBar from "@/components/ClientTopProgressBar";
 
 export const metadata = {
-    title: "Manikandan Eswaran | Portfolio",
+    title: "MANIKANDAN ESWARAN Eswaran | Portfolio",
 
     description:
-		"My name is Manikandan Eswaran, I'm a MERN Stack Developer with 1.5 years of experience building scalable web applications using MongoDB, Express.js, React.js, and Node.js.",
+		"My name is MANIKANDAN ESWARAN, I'm a MERN Stack Developer with 1.5 years of experience building scalable web applications using MongoDB, Express.js, React.js, and Node.js.",
 
-    author: "Manikandan Eswaran",
-    siteUrl: "https://www.manikandaneswaran.com",
-    applicationName: "Manikandan Eswaran Portfolio",
+    author: "MANIKANDAN ESWARAN Eswaran",
+    siteUrl: "https://www.MANIKANDAN ESWARANeswaran.com",
+    applicationName: "MANIKANDAN ESWARAN Eswaran Portfolio",
 
     keywords: [
-		"Manikandan Eswaran",
+		"MANIKANDAN ESWARAN Eswaran",
 		"MERN Stack Developer",
 		"Full Stack Developer",
 		"React Developer",
@@ -33,19 +33,19 @@ export const metadata = {
 
     openGraph: {
 		type: "website",
-		url: "https://www.manikandaneswaran.com",
-		title: "Manikandan Eswaran | MERN Stack Developer",
-		site_name: "Manikandan Eswaran Portfolio",
+		url: "https://www.MANIKANDAN ESWARANeswaran.com",
+		title: "MANIKANDAN ESWARAN Eswaran | MERN Stack Developer",
+		site_name: "MANIKANDAN ESWARAN Eswaran Portfolio",
 		description: "MERN Stack Developer with 1.5 years of experience building scalable web applications.",
 		width: 1200,
 		height: 630,
 		images: [
 			{
 				url: "/og-image-rev.png",
-				alt: "Manikandan Eswaran Portfolio",
+				alt: "MANIKANDAN ESWARAN Eswaran Portfolio",
 			},
 		],
-		site_name: "Manikandan Eswaran Portfolio",
+		site_name: "MANIKANDAN ESWARAN Eswaran Portfolio",
 	}
 };
 

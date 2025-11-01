@@ -1,7 +1,7 @@
 import Footer from "@/components/Footer";
 
 export const metadata = {
-  title: "Manikandan Eswaran | About"
+  title: "MANIKANDAN ESWARAN Eswaran | About"
 };
 export default function Layout({ children }) {
   return (

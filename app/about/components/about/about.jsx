@@ -35,7 +35,7 @@ export default function About() {
 								className="w-full h-full">
 								<Image
 									src={Me1}
-									alt="MANIKANDAN"
+									alt="MANIKANDAN ESWARAN"
 									layout="fill"
 									objectFit="cover"
 									placeholder="blur"
@@ -58,7 +58,7 @@ export default function About() {
 								className="w-full h-full">
 								<Image
 									src={Me2}
-									alt="MANIKANDAN"
+									alt="MANIKANDAN ESWARAN"
 									layout="fill"
 									objectFit="cover"
 									placeholder="blur"
@@ -83,7 +83,7 @@ export default function About() {
 								className="w-full h-full">
 								<Image
 									src={Me3}
-									alt="MANIKANDAN"
+									alt="MANIKANDAN ESWARAN"
 									layout="fill"
 									objectFit="cover"
 									placeholder="blur"
@@ -108,10 +108,10 @@ export default function About() {
 						type: "spring",
 					}}>
 					<h2 className="text-2xl font-bold tracking-wider mb-3">
-						MANIKANDAN ESWARAN
+						MANIKANDAN ESWARAN ESWARAN
 					</h2>
 					<p className="text-gray-600 text-justify title text-lg">
-						Hey there, I&rsquo;m Manikandan Eswaran, a
+						Hey there, I&rsquo;m MANIKANDAN ESWARAN Eswaran, a
 						<span className="text-black font-medium">
 							{" "}
 							passionate MERN Stack Developer
